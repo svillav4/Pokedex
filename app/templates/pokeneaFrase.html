@@ -19,8 +19,9 @@
             <div class="card-body">
               <h5 class="card-title text-primary fw-bold">Pokenea</h5>
               <p class="card-text">{{ pokenea.nombre }}</p>
-              <p class="card-text">{{ pokenea.imagen }}</p>
+              <img src="{{ pokenea.imagen }}" alt="Imagen de {{ pokenea.nombre }}" width="300"><br>
               <p class="card-text"><strong>Frase filosófica:</strong> {{ pokenea.frase }}</p>
+              <p class="card-text">Id del contenedor: <strong>{{ container }}</strong></p>
             </div>
           </div>
         </div>

@@ -1,12 +1,10 @@
-
-
 list = [
         {
             "id": 1,
             "nombre": "Jason",
             "altura": 1.75,
             "habilidad": "Correr mas rapido cuando lo persiguen",
-            "imagen": "imagen1",
+            "imagen": "https://imagenes-pokeneas.s3.us-east-1.amazonaws.com/1.jpg",
             "frase": "La vida es un juego, y yo soy el jugador.",
         },
         {
@@ -14,7 +12,7 @@ list = [
             "nombre": "Javier",
             "altura": 1.80,
             "habilidad": "Robarle la comida a los demas",
-            "imagen": "imagen2",
+            "imagen": "https://imagenes-pokeneas.s3.us-east-1.amazonaws.com/2.jpg",
             "frase": "El que no arriesga un sancocho, no gana una bandeja paisa.",
         },
         {
@@ -22,7 +20,7 @@ list = [
             "nombre": "Juan",
             "altura": 1.85,
             "habilidad": "Caminar sin que lo vean",
-            "imagen": "imagen3",
+            "imagen": "https://imagenes-pokeneas.s3.us-east-1.amazonaws.com/3.jpg",
             "frase": "Más vale una moto prestada que mil buses llenos.",
         },
         {
@@ -30,7 +28,7 @@ list = [
             "nombre": "Bryan",
             "altura": 1.90,
             "habilidad": "Escuchar a la policia desde lejos",
-            "imagen": "imagen4",
+            "imagen": "https://imagenes-pokeneas.s3.us-east-1.amazonaws.com/4.jpg",
             "frase": "Amor que no se demuestra con tinto, no es amor del bueno.",
         },
         {
@@ -38,7 +36,7 @@ list = [
             "nombre": "Esneider",
             "altura": 1.95,
             "habilidad": "Abrir puertas con la mente",
-            "imagen": "imagen5",
+            "imagen": "https://imagenes-pokeneas.s3.us-east-1.amazonaws.com/5.jpg",
             "frase": "No hay mal que un pastel de pollo no cure.",
         },
         {
@@ -46,7 +44,7 @@ list = [
             "nombre": "Stiven",
             "altura": 2.00,
             "habilidad": "Tomarse 4 cervezas en 1 minuto",
-            "imagen": "imagen6",
+            "imagen": "https://imagenes-pokeneas.s3.us-east-1.amazonaws.com/6.JPG",
             "frase": "No hay GPS que te guíe si no sabés para dónde vas",
         },
         {
@@ -54,7 +52,7 @@ list = [
             "nombre": "Salomon",
             "altura": 2.05,
             "habilidad": "Cantar en la ducha",
-            "imagen": "imagen7",
+            "imagen": "https://imagenes-pokeneas.s3.us-east-1.amazonaws.com/7.jpg",
             "frase": "La vida es como un chiste, a veces no tiene sentido.",
         },
     ]
