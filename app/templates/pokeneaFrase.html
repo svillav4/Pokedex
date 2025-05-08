@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/pokeneaInfo.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Pokeneas Frase</h1>
+    <div class="container">
+      {% for pokenea in pokeneas %}
+      <div class="pokeneas-info">
+        <h2>POKENEA</h2>
+        <p>{{ pokenea.nombre }}</p>
+        <p>{{pokenea.imagen}}</p>
+        <p>Frase Filosofica: {{pokenea.frase}}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
