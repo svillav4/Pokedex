@@ -3,23 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/pokeneaInfo.css') }}"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Pokeneas Frase</title>
   </head>
   <body>
-    <h1>Pokeneas Frase</h1>
-    <div class="container">
-      {% for pokenea in pokeneas %}
-      <div class="pokeneas-info">
-        <h2>POKENEA</h2>
-        <p>{{ pokenea.nombre }}</p>
-        <p>{{pokenea.imagen}}</p>
-        <p>Frase Filosofica: {{pokenea.frase}}</p>
+    <div class="container py-5 d-flex flex-column">
+      <div class="text-center mb-5">
+        <h1 class="fw-bold text-dark">Pokeneas Frases</h1>
       </div>
-      {% endfor %}
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        {% for pokenea in pokeneas %}
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-primary fw-bold">Pokenea</h5>
+              <p class="card-text">{{ pokenea.nombre }}</p>
+              <p class="card-text">{{ pokenea.imagen }}</p>
+              <p class="card-text"><strong>Frase filosófica:</strong> {{ pokenea.frase }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </body>
 </html>
