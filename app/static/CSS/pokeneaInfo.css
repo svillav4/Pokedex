@@ -4,7 +4,8 @@ h1{
     margin: 20px 0;
 }
 .container{
-    width: 100%;
+    width: 95%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px; 
